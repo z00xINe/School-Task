@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>My profile</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="CSS/profile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <script src="JS/ProfilePage.js"></script>
+
+    <div class="container"></div>
+    <nav>
+        <a href="HomePage.html">
+            <h2>Teach<span>Hub</span></h2>
+        </a>
+        <ul>
+
+            <li>
+                <a href="ProfilePage.html"><img src="img/download.png" class="pro" width="20px"></a>
+                <a href="ProfilePage.html">profile</a>
+            </li>
+            <li>
+                <a href="Login.html">Sign out</a>
+            </li>
+        </ul>
+    </nav>
+    </div>
+
+
+
+    <form method="post" class="form">
+        <img src="img/Profile.png" class="imag">
+        <div class="f">
+            <img src="img/download.png" class="img">
+
+            <div class="pa">
+                <label class="label">type:</label>
+                <input class="input" type="text" name="type" readonly>
+            </div>
+
+            <div class="pa">
+                <label class="label">user:</label>
+                <input class="input" type="text" name="user" readonly>
+            </div>
+
+            <div class="pa"><label class="label">email:</label>
+                <input class="input" type="email" name="email" readonly>
+            </div>
+
+            <div class="pa"><label class="label">phone number:</label>
+                <input class="input" type="text" name="num" readonly>
+            </div>
+
+            <label class="label">about</label>
+            <textarea class="about" name="about" cols="40" rows="10" readonly></textarea>
+
+            <div class="but">
+                <a href="EditProfilePage.html"><button type="button" class="edit">Edit</button></a>
+            </div>
+        </div>
+
+
+    </form>
+
+
+
+
+
+
+</body>
+
+</html>

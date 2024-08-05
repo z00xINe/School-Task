@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/sign.css">
+    <title>Login</title>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <nav>
+            <h2>TeachHub</h2>
+        </nav>
+    </div>
+    <form method="post" class="form">
+        <img src="img/login.png" class="img">
+        <div class="m">
+            <h1>Log<span>In</span></h1>
+        <div class="dif">
+        Do not have account?
+            <a href="SignUp.html">SignUp</a>
+        </div>
+        <br>
+
+        <input type="text" required placeholder="username" class="input" id="user">
+
+
+        <input type="password" required placeholder="password" class="input" id="pass">
+
+
+
+        <input id="admin" type="radio" name="as" value="Admin" class="radio">
+        <label for="admin" class="space">Admin</label>
+
+
+        <input id="teacher" type="radio" name="as" value="Teacher" class="radio">
+        <label for="teacher">Teacher</label>
+
+        <button type="submit" onclick="login(event)" class="login">Log in</button>
+
+        </div>
+    </form>
+    <script src="JS/Login.js"></script>
+</body>
+
+</html>

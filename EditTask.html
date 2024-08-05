@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/task.css">
+    <title>Edit Task</title>
+</head>
+
+<body>
+    <script src="JS/EditTask.js"></script>
+    <div class="container"></div>
+    <nav>
+        <a href="HomePage.html">
+            <h2>Teach<span>Hub</span></h2>
+        </a>
+        <ul>
+
+            <li>
+                <a href="ProfilePage.html"><img src="img/download.png" class="pro" width="20px"></a>
+                <a href="ProfilePage.html">profile</a>
+            </li>
+            <li>
+                <a href="Login.html">Sign out</a>
+            </li>
+        </ul>
+    </nav>
+    </div>
+    <hr>
+    <img src="img/edit.png" class="image">
+    <form class="form" method="post">
+        <pre>
+            <input type="text" name="TaskId" id="TaskId"  placeholder="Task Id" class="input" autofocus>
+        
+        
+            <input type="text" name="TaskTitle" id="TaskTitle"  placeholder="Task Title" class="input">
+
+
+             <input type="text" name="TeacherName" id="TeacherName" placeholder="Teacher Name" class="input">
+             
+              
+            <textarea name="subject" id="5" placeholder="Description" cols="30" rows="10"></textarea>
+
+
+                <label >Piority</label><br> 
+                <input type="radio" name="Piority" id="1"><label for="1"> Low</label>
+
+                <input type="radio" name="Piority" id="2"><label for="2"> Medium</label>
+
+                <input type="radio" name="Piority" id="3"><label for="3"> High</label>
+
+ 
+                <a href="AdminHome.html"><button onclick="Update(event)" type="submit">Submit</button></a>
+        </pre>
+
+    </form>
+
+</body>
+
+</html>

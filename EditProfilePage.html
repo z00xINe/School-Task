@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Edit my profile</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="CSS/profile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container"></div>
+    <nav>
+        <a href="HomePage.html">
+            <h2>Teach<span>Hub</span></h2>
+        </a>
+        <ul>
+
+            <li>
+                <a href="ProfilePage.html"><img src="img/download.png" class="pro" width="20px"></a>
+                <a href="ProfilePage.html">profile</a>
+            </li>
+            <li>
+                <a href="Login.html">Sign out</a>
+            </li>
+        </ul>
+    </nav>
+    </div>
+    <script src="JS/EditProfilePage.js"></script>
+
+
+    <form method="post" class="form">
+        <img src="img/editprofile.png" class="imag">
+        <div class="f">
+            <img src="img/download.png" class="img">
+
+            <div class="pa">
+                <label for="as">type:</label>
+                <input id="as" name="type" type="text" readonly class="input">
+            </div>
+
+            <div class="pa">
+                <label for="user">User name:</label>
+
+                <input type="text" id="user" name="user" class="input" readonly>
+            </div>
+            <div class="pa">
+                <label for="old pass">Old password:</label>
+
+                <input type="password" name="old pass" id="old pass" class="input" autofocus>
+            </div>
+
+            <div class="pa">
+                <label for="new pass">New password:</label>
+
+                <input type="password" name="new pass" id="new pass" class="input" required>
+            </div>
+            <div class="pa">
+                <label for="confirm">Confirm new password:</label>
+
+                <input type="password" name="confirm" id="confirm" class="input" required>
+            </div>
+
+            <div class="pa">
+                <label for="email">Email:</label>
+
+                <input type="email" name="email" required id="email" class="input">
+            </div>
+
+            <div class="pa">
+                <label for="num">Phone number:</label>
+
+                <input type="text" id="num" name="num" required class="input">
+            </div>
+
+            <label for="about">About:</label>
+            <textarea class="about" name="about" id="about" cols="40" rows="10" placeholder="About you"
+                required></textarea>
+            <div class="but">
+                <a href="ProfilePage.html"><button type="button" class="save" onclick="Saving(event)">save</button></a>
+            </div>
+
+        </div>
+    </form>
+    </div>
+
+</body>
+
+</html>
